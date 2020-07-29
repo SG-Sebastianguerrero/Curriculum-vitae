@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"/> <!-- para definir el tipo de lenguaje usado con tildes-->
+    <title>Curriculum Vitae</title>
+    <link rel="icon" type="image/png" href="images/A first logo.png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/transitions.css">
+  </head>
+  <body>
+   <header class="header"><!-- style="" para animaciones-->
+       <style type="text/css">
+         #capa1{ position:fixed; z-index:1; }
+         #capa2{ position:absolute; z-index:0; }
+        </style>
+
+    <div id="capa1">
+      <figure class="logo">
+        <img src="images/A logo.png" width="80" alt="Logo de Sebastian Guerrero">
+      </figure>
+     <nav class="menu">
+       <ol>
+         <li>
+           <a class="link" href="#portafolio">Portafolio</a>
+         </li>
+         <li>
+          <a class="link" href="#education">Educación</a>
+         </li>
+         <li>
+           <a class="link" href="#eventos">Experiencia</a>
+         </li>
+         <li>
+           <a class="link" href="#contacto">Trabajemos Juntos</a>
+         </li>
+
+       </ol>
+     </nav>
+    </div>
+   </header>
+
+   <!-- texto con imagen de portada-->
+   <section class="hero"> <!--seccion principal-->
+     <h1>
+       Hola! Soy <strong>Sebastian Guerrero</strong> desarrollador<br>
+       <strong>javascript y Diseñador grafico</strong>
+     </h1>
+     <!--img src="images/hero.jpg" width="500" alt="imagen principal del sitio">-->
+   </section>
+
+   <!-- Educacion-->
+
+<section id="education" class="education" width="1350px">
+  <article id="title-education"class="title-education">
+    <h1>
+      <strong>+Sobre mi educación</strong>
+    </h1>
+  </article>
+
+  <article class="education-imageContainer">
+   <!-- Educacion primera seccion-->
+    <figure class="item1-image">
+    <img class="project-image-item" src="images/edu1.jpg" width="400px" >
+        <figure class="item1-knowledge1">
+          <img class="item1-knowledge1-image" src="images/KN1.png" width="70px">
+          <h4 id="item1-title1">5 Semestres Ingeniería de Sistemas UCC <br>2016/02/01 – 22/04/2020 </h4>
+        </figure>
+
+        <figure class="item1-knowledge2">
+          <img class="item1-knowledge2-image" src="images/KN2.png" width="70px" >
+          <h4 id="item1-title2">Técnico en Asesoría y operaciones en entidades financieras SENA 2018/02/01 – 2019/02/01 </h4>
+        </figure>
+
+        <figure class="item1-knowledge3">
+          <img class="item1-knowledge3-image" src="images/KN3.png" width="70px">
+          <h4 id="item1-title3">CURSO B2 Ingles UNAD 01/02/18 - 01/05/18 </h4>
+        </figure>
+    </figure>
+
+ <!-- Educacion segunda seccion-->
+
+    <figure class="item2-image">
+    <img class="project-image-item" src="images/edu2.jpg" width="400px">
+    <figure class="item1-knowledge1">
+      <img class="item1-knowledge1-image" src="images/KN4.png" width="70px">
+      <h4 id="item1-title1">CURSO UNIVERSIDAD JAVA (de 0 a master)<br> Udemy 2019 /07/01</h4>
+    </figure>
+
+    <figure class="item1-knowledge2">
+      <img class="item1-knowledge2-image" src="images/KN5.png" width="70px" >
+      <h4 id="item1-title2">Curso de Hacking Ético PLATZI <br> 27/07/2019  </h4>
+    </figure>
+
+    <figure class="item1-knowledge3">
+      <img class="item1-knowledge3-image" src="images/KN6.png" width="70px">
+      <h4 id="item1-title3">CURSO Adobe Illustrator (PHOTOSHOP) <br>DOMESTIKA 2019/10/15 – 2019/010/31  </h4>
+    </figure>
+    </figure>
+
+ <!-- Educacion tercera seccion-->
+    <figure class="item3-image">
+    <img class="project-image-item" src="images/edu3.jpg" width="400px">
+    <figure class="item1-knowledge1">
+      <img class="item1-knowledge1-image" src="images/KN7.png" width="70px">
+      <h4 id="item1-title1">Curso de HTML y CSS <br>PLATZI 02/04/2020</h4>
+    </figure>
+
+    <figure class="item1-knowledge2">
+      <img class="item1-knowledge2-image" src="images/KN8.png" width="70px" >
+      <h4 id="item1-title2">Curso de Desarrollo Web <br>Online PLATZI 19/04/2020 </h4>
+    </figure>
+
+    <figure class="item1-knowledge3">
+      <img class="item1-knowledge3-image" src="images/KN9.png" width="70px">
+      <h4 id="item1-title3">Fundamentos Javascript 01/06/2020</h4>
+    </figure>
+    </figure>
+
+   </article>
+</section>
+
+   <!-- Portafolio -->
+<section id="portafolio" class="portfolio">
+  <h2>Portafolio ( Proyectos destacados)</h2>
+    <article class="project">
+                  <div class="project-details">
+      <h3 class="project-title">DAVIOFICINAS</h3>
+      <p class="project-date"><small><strong>Fecha:</strong> 8/01/2019</small></p>
+      <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://www.google.com/maps/d/u/0/viewer?mid=10dl6xNwmfPJbF4yKnWwnMhfMIo7bNexW&ll=4.680751924451748%2C-74.11101536752255&z=11" target="_blank">Vista</a></small></p>
+      <p class="project-description">Creación de mapa de todas las oficinas del banco con un rango alrededor de 1 km de distancia y separado por zonas y códigos</p>
+                  </div>
+        <figure class="project-imageContainer">
+        <img class="project-image" src="images/Davioficinas.png" width="180px" alt="Davioficinas">
+        </figure>
+    </article>
+    <!--proyecto2-->
+    <article class="project2">
+                  <div class="project-details">
+      <h3 class="project-title">Reconocimiento facial.apk</h3>
+      <p class="project-date"><small><strong>Fecha:</strong> 8/01/2019</small></p>
+      <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://drive.google.com/file/d/1CbXKaqhQwfNKYBEW_ZO4v7QyMEozl708/view" target="_blank">Vista</a></small></p>
+      <p class="project-description">Prototipo de reconocimiento facial para Android en el aplicativo bancario para aumentar la seguridad al momento de ingresar a la aplicación Davivienda</p>
+                  </div>
+                  <figure class="project-imageContainer">
+                    <img class="project-image" src="images/pi.png" width="200px" alt="Proteccion inteligente">
+         </figure>
+    </article>
+</section>
+
+<section class="segment">
+  <h2>Más sobre mi Experiencia con diseño</h2>
+
+<!-- eventos -->
+<section id="eventos" class="event-list"><!--Experiencia-->
+
+ <article class="event">
+   <figure class="event-imageContainer">
+     <img class="event-image" src="images/after effects.gif" width="500" />
+   </figure>
+   <div class="event-detail">
+     <h3 class="event-title">After effects</h3>
+     <p class="event-description">Exprerencia en creacion de efectos animaciones y/o videos en Affter efects</p>
+   </div>
+ </article>
+
+<!--evento 2-->
+<article class="event">
+  <figure class="event-imageContainer">
+    <img class="event-image" src="images/La gran esquina.png" width="100" />
+  </figure>
+  <div class="event-detail">
+    <h3 class="event-title">Transformacion imagen corporativa</h3>
+    <p class="event-description">Creacion de logos y publicidad para empresas</p>
+    <a class="event-url"> Ver Galeria</a>
+  </div>
+</article>
+
+ <!--evento 3
+  <article class="event">
+    <figure class="event-imageContainer">
+      <img class="event-image" src="images/platzi-conf.jpg" width="500" />
+    </figure>
+    <div class="event-detail">
+      <h3 class="event-title">Aplicaciónes mobiles</h3>
+      <p class="event-description">Creacion de aplicaciones para android</p>
+      <a class="event-url"> ver platica</a>
+    </div>
+  </article>-->
+
+
+</section>
+
+</section>
+<!-- Contacto -->
+<section id="contacto" class="contact">
+<form action="/suscripcion/" class="form-email"><!--mirar para j script-->
+  <h3>¿Creamos algo juntos?</h3>
+  <input type="text" placeholder="Déjame tu email">
+  <button>Enviar</button>
+</form>
+<div class="social">
+  <a href="mailto:sebastianguerrero2207@hotmail.com" class="social-link outlook"></a>
+  <a href="pending"  class="social-link github"></a>
+  <a href="https://www.instagram.com/sebastian_guerrero_1601/"  class="social-link instagram"></a>
+</div>
+</section>
+
+<!--<footer class="footer">
+  <div class="">
+    <p>Sebastian Guerrero <img src="images/A logo.png" alt="platzi" width="80"/></p>
+  </div>
+  <div class="">
+    <p></p>
+  </div>
+</footer>-->
+  </body>
+</html>

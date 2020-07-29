@@ -1,0 +1,20 @@
+
+.item1-knowledge1:hover,.item1-knowledge2:hover,.item1-knowledge3:hover{
+  background-color: var(--dg-color);
+  position: re
+  lative;
+  color:white;
+}
+.item1-knowledge1:hover,.item1-knowledge2:hover,.item1-knowledge3:hover{
+  transform: scale(1.05);
+  animation-name: grow;
+  animation-duration: 2s;
+}
+@@keyframes grow {
+  0%{
+      transform: scale(1);
+  }
+  100%{
+      transform: scale(1.1);
+  }
+}
