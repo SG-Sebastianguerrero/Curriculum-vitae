@@ -1,8 +1,7 @@
 
 .item1-knowledge1:hover,.item1-knowledge2:hover,.item1-knowledge3:hover{
   background-color: var(--dg-color);
-  position: re
-  lative;
+  position: relative;
   color:white;
 }
 .item1-knowledge1:hover,.item1-knowledge2:hover,.item1-knowledge3:hover{
@@ -10,6 +9,7 @@
   animation-name: grow;
   animation-duration: 2s;
 }
+
 @@keyframes grow {
   0%{
       transform: scale(1);

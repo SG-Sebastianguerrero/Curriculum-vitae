@@ -1,0 +1,25 @@
+@media(max-width: 800px){
+  .education-imageContainer{
+    display: grid;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    }
+    .item1-image, .item2-image, .item3-image {
+    margin: 20px 0px 20px 0px;
+    }
+    .project-image-item{
+    width: 500px;
+    }
+    .item1-knowledge1-image,.item1-knowledge2-image,.item1-knowledge3-image{
+      width: 90px;
+    }
+    .item1-knowledge1{
+          margin-top: -320px;
+    }
+
+     .item1-knowledge1,.item1-knowledge2,.item1-knowledge3{
+       width: 450px;
+     }
+
+}
