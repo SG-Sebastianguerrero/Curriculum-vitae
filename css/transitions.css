@@ -7,7 +7,6 @@
 .item1-knowledge1:hover,.item1-knowledge2:hover,.item1-knowledge3:hover{
   transform: scale(1.05);
   animation-name: grow;
-  animation-duration: 2s;
 }
 
 @@keyframes grow {
@@ -18,3 +17,23 @@
       transform: scale(1.1);
   }
 }
+
+/*
+.loader{
+  background-image: url('../images/load.gif');
+  height: 100vh;
+  display: flex;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+@@keyframes appear {
+  0%{
+      display: flex;
+  }
+  100%{
+      display: none;
+  }
+}*/
